@@ -1,0 +1,12 @@
+{
+  "name": "UnitTestTutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "test":"jest"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
