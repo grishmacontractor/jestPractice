@@ -1,0 +1,26 @@
+{
+  "name": "jestprj_add",
+  "version": "1.0.0",
+  "main": "sound-player.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "deep-freeze": "^0.0.1",
+    "jest": "^22.1.4"
+  },
+  "dependencies": {
+    "updates": "^2.2.1"
+  },
+  "jest":{
+    "collectCoverageFrom": [
+      "*.js"
+    ]
+  }
+}
