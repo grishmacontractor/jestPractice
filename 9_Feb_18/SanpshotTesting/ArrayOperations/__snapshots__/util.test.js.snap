@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Item to a list 1`] = `
+Array [
+  "React",
+  "Mobx",
+  "Redux",
+]
+`;
+
+exports[`Remove Item frm a list 1`] = `
+Array [
+  "React",
+]
+`;
+
+exports[`Update Item frm a list 1`] = `
+Array [
+  "React",
+  "Redux",
+]
+`;
